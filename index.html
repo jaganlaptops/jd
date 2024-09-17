@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Rentals</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: rgba(0, 0, 0, 0.6) url('https://d36g7qg6pk2cm7.cloudfront.net/assets/landing_page/Banglr_Banner_Desktop-92bec25b99397445dc79c6db2493016a1b5ad62fbb4825a1345fac85ccdcf0c1.webp') center center fixed;
+            background-size: cover;
+            background-blend-mode: darken;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .navbar .logo {
+            color: #fff;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .navbar .contact-info {
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .navbar .contact-info a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        .navbar .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .navbar .menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .menu a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar .menu a:hover {
+            background-color: rgb(252, 20, 140);
+            border-radius: 5px;
+        }
+
+        .content {
+            text-align: center;
+            color: #fff;
+            margin-top: 100px;
+            padding: 20px;
+        }
+
+        .content h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .search {
+            margin-top: 20px;
+        }
+
+        .search input {
+            padding: 10px;
+            width: 300px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .search button {
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(252, 20, 140);
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .search button:hover {
+            background-color: #fff;
+            color: rgb(252, 20, 140);
+            transition: 0.3s;
+        }
+
+        .info {
+            margin: 40px auto;
+            text-align: center;
+            color: #fff;
+        }
+
+        .info h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .info p {
+            font-size: 18px;
+        }
+
+        .footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer .social-icons {
+            margin-bottom: 20px;
+        }
+
+        .footer .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        .footer .social-icons a:hover {
+            color: rgb(252, 20, 140);
+        }
+
+        .footer .links {
+            margin-bottom: 20px;
+        }
+
+        .footer .links a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .footer .links a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .address {
+            font-size: 16px;
+        }
+
+        .footer .address p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="logo">Sukuto</a>
+        <div class="contact-info">
+            <a href="tel:+918884414400">+91 - 8884414400</a>
+            <a href="mailto:contact@sukuto.com">Contact Us</a>
+        </div>
+        <div class="menu">
+            <a href="https://sukuto.com/monthly-bike-rental">Monthly Rentals</a>
+            <a href="https://sukuto.com/blog">Blogs</a>
+            <a href="https://sukuto.com/become-partner">Partner with Us</a>
+            <a href="https://sukuto.com/bike-expedition">Cart</a>
+            <a href="https://sukuto.com/cart">Profile</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Bike Rental in Bangalore</h1>
+        <p>Want to explore the city on two wheels? We have got you covered! With just a few clicks, you can book the perfect bike on rent in Bangalore for your daily commute, a spontaneous road trip, or a long weekend getaway. Enjoy the freedom and flexibility of riding around Bangalore with Sukuto.</p>
+
+        <div class="search">
+            <input type="text" placeholder="Search for bikes...">
+            <button>Search</button>
+        </div>
+    </div>
+
+    <div class="info">
+        <h2>Your Ultimate Guide for Rental Vehicles</h2>
+        <p>Compare & Book in a Snap!</p>
+        <div class="services">
+            <p>Search | Compare | Book | Ride</p>
+        </div>
+        <p>10000+ Vehicles | 150+ Verified Partners | 50+ Cities</p>
+        <p>Avg Google Rating: 4.5+ (1200+)</p>
+    </div>
+
+    <div class="footer">
+        <div class="social-icons">
+            <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
+            <a href="#"><img src="call-icon.png" alt="Call"></a>
+        </div>
+
+        <div class="links">
+            <a href="https://www.royalbrothers.com/about">About Us</a>
+            <a href="https://www.royalbrothers.com/about">Contact Us</a>
+            <a href="https://twistthrottle.in/#fleet_section"> Our fleet</a>
+            <a href="https://www.royalbrothers.com/blog">Blog</a>
+            <a href="https://www.royalbrothers.com/terms-and-conditions">Terms & Conditions</a>
+            <a href="https://www.royalbrothers.com/privacy-policy">Privacy Policy</a>
+        </div>
+
+        <div class="address">
+            <p>Travelware Technologies Private Limited</p>
+            <p>Phone: +91-8884414400</p>
+            <p>Email: contact@sukuto.com</p>
+            <p>Location: 36/5, Hustlebub Tech Park, Somasundarapalya Main Road, HSR Layout, Bengaluru, Karnataka - 560102</p>
+        </div>
+
+        <div class="app-links">
+            <a href="#">Get it on Google Play</a>
+            <a href="#">App Store</a>
+        </div>
+
+        <p>© 2024 Sukuto. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
